@@ -57,7 +57,7 @@ ul {
 }
 
 section {
-  
+
 }
 
 img {
@@ -70,4 +70,14 @@ img {
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    margin-bottom: 2%;
    padding: 2% 0 2% 6%;
+}
+
+@media (max-width: 600px) {
+  .col-left {
+    flex: 1 100%;
+  }
+
+  .col-right {
+    flex: 1 100%;
+  }
 }
