@@ -1,0 +1,73 @@
+h1, h2, h3, h4, h5, h6, p, a {
+  font-family: "Work Sans", sans-serif;
+  margin: 0;
+}
+
+h1, h3 {
+  text-align: center;
+}
+
+h2 {
+  margin: 20px 0 10px 0;
+}
+
+h4 {
+  margin: 15px 0 5px 0;
+  font-size: 1.2em;
+  color: black;
+  text-decoration: underline;
+}
+
+h5 {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  width: 80%;
+  margin-bottom: 15px;
+  font-size: 1em;
+  line-height: 140%;
+}
+
+p:first-of-type {
+  margin-top: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+.flex-grid {
+  width: 90%;
+  display: flex;
+  padding: 2%;
+}
+
+.col-left {
+  flex: 1;
+}
+
+.col-right {
+  flex: 2;
+}
+
+section {
+  
+}
+
+img {
+  max-width: 500px;
+  height: auto;
+  margin-top: 3%;
+}
+
+.shadow {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   margin-bottom: 2%;
+   padding: 2% 0 2% 6%;
+}
