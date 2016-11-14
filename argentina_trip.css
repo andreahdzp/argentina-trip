@@ -43,17 +43,13 @@ ul {
 }
 
 .flex-grid {
-  width: 90%;
+  width: 100%;
   display: flex;
-  padding: 2%;
+  flex-flow: row wrap;
 }
 
-.col-left {
-  flex: 1;
-}
-
-.col-right {
-  flex: 2;
+.col-left, .col-right {
+  flex: 1 100%;
 }
 
 section {
@@ -61,7 +57,7 @@ section {
 }
 
 img {
-  max-width: 500px;
+  max-width: 80%;
   height: auto;
   margin-top: 3%;
 }
@@ -72,12 +68,19 @@ img {
    padding: 2% 0 2% 6%;
 }
 
-@media (max-width: 600px) {
+@media all and (min-width: 600px) {
+  .flex-grid {
+    width: 90%;
+    padding: 2%;
+    margin: 0 auto;
+  }
+
   .col-left {
-    flex: 1 100%;
+    flex: 1;
   }
 
   .col-right {
-    flex: 1 100%;
+    flex: 2;
   }
+
 }
