@@ -68,7 +68,7 @@ img {
    padding: 2% 0 2% 6%;
 }
 
-@media all and (min-width: 900px) {
+@media (min-width: 900px) {
   .flex-grid {
     width: 90%;
     padding: 2%;
@@ -77,6 +77,7 @@ img {
 
   .col-left {
     flex: 1;
+    background-color: grey;
   }
 
   .col-right {
