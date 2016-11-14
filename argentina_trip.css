@@ -68,7 +68,7 @@ img {
    padding: 2% 0 2% 6%;
 }
 
-@media all and (min-width: 600px) {
+@media all and (min-width: 376px) {
   .flex-grid {
     width: 90%;
     padding: 2%;
